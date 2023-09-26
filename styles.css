@@ -17,3 +17,14 @@
 footer {
    background-color: brown;
 }
+
+.main_banner > .carousel > .hero_txt {
+   position: absolute;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    margin-right: 10vh;
+    color: white;
+    height: auto;
+    width: auto;
+    z-index: 2;
+}
