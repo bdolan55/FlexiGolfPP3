@@ -6,8 +6,23 @@
    background-color: blue;
 }
 
-.what_we_do {
+.what_we_do_act {
    background-color: yellowgreen;
+   height: 25rem;
+   display: flex;
+   justify-content: space-around;
+   padding: 3rem;
+}
+
+.what_we_do_act_head {
+   padding-bottom: 1.5rem;
+   text-align: center;
+}
+
+.what_we_do_act_txt {
+   text-align: center;
+   padding: 1.5rem;
+
 }
 
 .where_are_we {
@@ -27,4 +42,8 @@ footer {
     height: auto;
     width: auto;
     z-index: 2;
+}
+
+.carousel-inner {
+   height: 35rem
 }
