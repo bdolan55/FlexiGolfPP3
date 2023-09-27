@@ -33,6 +33,10 @@ footer {
    background-color: brown;
 }
 
+.footer_items {
+   display: flex;
+   justify-content: space-evenly;
+}
 .main_banner > .carousel > .hero_txt {
    position: absolute;
     margin-top: 20vh;
