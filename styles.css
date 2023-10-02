@@ -50,7 +50,12 @@ footer {
 }
 
 .carousel-inner {
-   height: 35rem
+   height: 35rem;
+}
+
+.carousel-inner > .carousel-item > img {
+   height:fit-content;
+   width: auto;
 }
 
 .footer_item_info {
@@ -58,6 +63,7 @@ footer {
    flex-direction: column;
    padding-top: 1.5rem;
    align-items: center;
+   padding-left: 6rem;
 }
 
 .footer_item_social >.social_icon {
