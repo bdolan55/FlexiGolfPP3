@@ -35,7 +35,7 @@ footer {
 
 .footer_items {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
 }
 .main_banner > .carousel > .hero_txt {
    position: absolute;
@@ -50,4 +50,36 @@ footer {
 
 .carousel-inner {
    height: 35rem
+}
+
+.footer_item_info {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.footer_item_social >.social_icon {
+   display: flex;
+   flex-direction: row;
+}
+
+.footer_item_social >.social_icon > .social_icon_img {
+   padding: 2rem;
+   list-style: none;
+}
+
+.footer_item_social >.social_icon > .social_icon_img > img {
+   height: 2.5rem;
+}
+
+.address_head > img {
+   height: 4rem;
+}
+
+.contact_head > img {
+   height: 4rem;
+}
+
+.social_icon {
+   width: 33%;
 }
