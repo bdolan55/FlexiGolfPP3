@@ -26,11 +26,12 @@
 }
 
 .where_are_we {
-   background-color: orangered;
+   border: 0;
+   margin: 0;
 }
 
 footer {
-   background-color: brown;
+   background-color: whitesmoke;
 }
 
 .footer_items {
@@ -55,7 +56,8 @@ footer {
 .footer_item_info {
    display: flex;
    flex-direction: column;
-   
+   padding-top: 1.5rem;
+   align-items: center;
 }
 
 .footer_item_social >.social_icon {
@@ -78,8 +80,18 @@ footer {
 
 .contact_head > img {
    height: 4rem;
+   padding-left: 1.5rem;
 }
 
-.social_icon {
-   width: 33%;
+.footer_item_info > ul > li {
+   align-items: center;
+   list-style: none;
+}
+
+.footer_item_info > ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
 }
