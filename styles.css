@@ -6,15 +6,17 @@
    background-color: blue;
 }
 
+
 .what_we_do_act {
-   background-color: yellowgreen;
+   background-color: white;
    height: 25rem;
    display: flex;
    justify-content: space-around;
-   padding: 3rem;
+   padding: 0rem;
 }
 
 .what_we_do_act_head {
+   padding-top: 1.5rem;
    padding-bottom: 1.5rem;
    text-align: center;
 }
@@ -54,8 +56,7 @@ footer {
 }
 
 .carousel-inner > .carousel-item > img {
-   height:fit-content;
-   width: auto;
+
 }
 
 .footer_item_info {
@@ -100,4 +101,19 @@ footer {
    justify-content: center;
    align-items: center;
 
+}
+
+.golf_sim {
+   background-color: rgb(164, 167, 169);
+   border-radius: 0 2rem 2rem 0 ;
+}
+
+.golf_food {
+   background-color: rgb(164, 167, 169);
+   border-radius: 2rem 0 0 2rem;
+}
+
+.golf_bar {
+   background-color: whitesmoke;
+   border-radius: 2rem;
 }
